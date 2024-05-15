@@ -170,3 +170,28 @@
 // parameter and find the longest word within the string.
 // EXAMPLE STRING : 'Web Development Tutorial'
 // EXPECTED OUTPUT : 'Development'
+
+
+// Q no 13 
+
+// Write a JavaScript function that accepts two arguments, a
+// string and a letter and the function will count the number ofoccurrences of the specified letter within the string.
+// Sample arguments : 'JSResourceS.com', 'o'
+
+// function myFunction(str, letter) {
+//     var result = "";
+//     var count = "";
+
+//     for (var i = 0; i < str.length; i++) {
+//         if (str[i] == letter) {
+//             count++;
+//         }
+//     }
+// return count
+// }
+
+// var result = myFunction('JSResourceS.com', 'o');
+// console.log(result)
+
+
+// Q no 14 
