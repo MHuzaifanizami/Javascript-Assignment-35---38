@@ -171,8 +171,25 @@
 // EXAMPLE STRING : 'Web Development Tutorial'
 // EXPECTED OUTPUT : 'Development'
 
+function longWord(str) {
+    var word = str.split(' ');
+    var longestWord = '';
+    
+for(var i = 0 ; i < word.length ; i++){
+    if(word[i].length > longestWord.length){
+        longestWord = word[i]
+       
+    }
+}
+return longestWord;
+}
+var str = 'muhammad rafiullah chitrali';
+var logestWord = longWord(str);
+console.log(logestWord)
 
-// Q no 13 
+
+
+// Q no 13
 
 // Write a JavaScript function that accepts two arguments, a
 // string and a letter and the function will count the number ofoccurrences of the specified letter within the string.
@@ -194,4 +211,3 @@
 // console.log(result)
 
 
-// Q no 14 
